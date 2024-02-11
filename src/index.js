@@ -8,12 +8,10 @@ import './index.css';
 import './Themes/override.css';
 import 'reveal.js/dist/theme/dracula.css';
 
-
 const App = () => (
   <div className="App">
     <Deck>{Slides}</Deck>
   </div>
 );
-
 
 ReactDOM.render(<App />, document.getElementById('root'));

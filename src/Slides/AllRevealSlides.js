@@ -8,7 +8,6 @@ import SlideWithTitle from '../Components/RevealComponents/SlideWithTitle';
 // import CSSAnimationSlide from './CSSAnimationSlide';
 // import JSX from '../Components/Highlight/JSX';
 
-
 const Flex = styled.div`
   display: flex;
   justify-content: space-between;
