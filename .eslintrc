@@ -5,12 +5,14 @@
     "react/jsx-props-no-spreading": "off",
     "react/no-unescaped-entities": "off",
     "react/require-default-props": "off",
+    "react/self-closing-comp": "off",
     "react/jsx-filename-extension": [
       1,
       {
         "extensions": [".js", "jsx"]
       }
-    ]
+    ],
+    "no-unused-vars": "off"
   },
   "env": {
     "browser": true
