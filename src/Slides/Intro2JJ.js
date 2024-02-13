@@ -1,6 +1,7 @@
 import React from 'react';
 import styled from 'styled-components';
 import Slide from '../Components/RevealComponents/Slide';
+import Note from '../Components/Notes/note';
 // import Note from '../Components/Notes/note';
 // import SlideWithTitle from '../Components/RevealComponents/SlideWithTitle';
 // import Link from '../Components/Link';
@@ -15,7 +16,14 @@ const Flex = styled.div`
 
 const Intro2JJ = () => (
   <>
-    <Slide></Slide>
+    <Slide>
+      This a test
+      <Note>This is a test</Note>
+      <Slide>
+        This a slide below
+        <Note>This is a new test</Note>
+      </Slide>
+    </Slide>
   </>
 );
 
